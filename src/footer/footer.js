@@ -125,7 +125,7 @@ export const Footer = () => {
             <textarea
               cols="40"
               rows="3"
-              placeholder="Write us..."
+              placeholder="Write us...*"
               className="textInput"
               value={msg}
               onChange={(e) => {

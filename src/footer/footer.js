@@ -19,7 +19,11 @@ export const Footer = () => {
     try {
       console.log(name, mail, msg);
       await axios
-        .post("http://localhost:3002/ensurePost", { name, mail, msg })
+        .post("https://estatebe-production.up.railway.app/ensurePost", {
+          name,
+          mail,
+          msg,
+        })
         .then((res) => {
           console.log(res);
         })

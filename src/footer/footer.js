@@ -17,19 +17,23 @@ export const Footer = () => {
 
   let submit = async () => {
     try {
-      console.log(name, mail, msg);
-      await axios
-        .post("https://estatebe-production.up.railway.app/ensurePost", {
-          name,
-          mail,
-          msg,
-        })
-        .then((res) => {
-          console.log(res);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
+      if (name === "" || mail === "" || msg === "") {
+        window.alert("please fill in the details");
+      } else {
+        await axios
+          .post("https://estatebe-production.up.railway.app/ensurePost", {
+            name,
+            mail,
+            msg,
+          })
+          .then((res) => {
+            console.log(res);
+            window.alert("We will reach out to you soon");
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
     } catch (err) {
       console.log(err);
     }

@@ -29,6 +29,9 @@ export const Footer = () => {
           .then((res) => {
             console.log(res);
             window.alert("We will reach out to you soon");
+            setMail("");
+            setName("");
+            setMsg("");
           })
           .catch((err) => {
             console.log(err);

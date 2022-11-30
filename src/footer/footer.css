@@ -1,6 +1,6 @@
 #Footer {
   background-color: #3f4448;
-  height: 100vh;
+  height: 105vh;
 }
 .title {
   font-family: "PT Serif", serif;
@@ -110,7 +110,7 @@
   font-size: 14px;
   font-weight: 800;
   color: gray;
-  margin-top: 67px;
+  margin-top: 60px;
 }
 .iconsMedia {
   display: flex;

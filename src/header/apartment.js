@@ -2,21 +2,9 @@ import React, { useEffect, useState } from "react";
 import a1 from "../images/a1.jpg";
 import b1 from "../images/b1.jpg";
 import c1 from "../images/c1.jpg";
-import d1 from "../images/allure/d1.jpg";
-import e1 from "../images/allure/e1.jpg";
-import n1 from "../images/allure/n1.jpg";
-import l1 from "../images/l1.jpeg";
-import l2 from "../images/l2.jpg";
-import l3 from "../images/l3.jpg";
-import l4 from "../images/l4.jpg";
-import l5 from "../images/l5.jpg";
-import l6 from "../images/l6.jpg";
-import l7 from "../images/l7.jpg";
-import l8 from "../images/l8.jpg";
-import l9 from "../images/l9.jpg";
-import l10 from "../images/l10.jpg";
-import l11 from "../images/l11.jpg";
-import l12 from "../images/l12.jpg";
+import d1 from "../images/z1.jpg";
+import e1 from "../images/z2.jpg";
+import n1 from "../images/z3.jpg";
 
 export const Apartment = () => {
   const [sections, setSections] = useState([
@@ -27,8 +15,6 @@ export const Apartment = () => {
       rooms: "1",
       "parking place": "no",
       price: "10000",
-      picA: l1,
-      picB: l2,
     },
     {
       name: "park",
@@ -37,8 +23,6 @@ export const Apartment = () => {
       rooms: "2",
       "parking place": "yes",
       price: "20000",
-      picA: l3,
-      picB: l4,
     },
     {
       name: "studio room",
@@ -47,8 +31,6 @@ export const Apartment = () => {
       rooms: "3",
       "parking place": "yes",
       price: "30000",
-      picA: l5,
-      picB: l6,
     },
     {
       name: "simplex",
@@ -57,8 +39,6 @@ export const Apartment = () => {
       rooms: "4",
       "parking place": "no",
       price: "70000",
-      picA: l7,
-      picB: l8,
     },
     {
       name: "double height",
@@ -67,8 +47,6 @@ export const Apartment = () => {
       rooms: "5",
       "parking place": "yes",
       price: "100000",
-      picA: l9,
-      picB: l10,
     },
     {
       name: "double height duplex",
@@ -77,8 +55,6 @@ export const Apartment = () => {
       rooms: "6",
       "parking place": "no",
       price: "123456",
-      picA: l11,
-      picB: l12,
     },
   ]);
   useEffect(() => {

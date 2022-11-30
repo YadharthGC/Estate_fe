@@ -1,0 +1,161 @@
+#Footer {
+  background-color: #3f4448;
+  height: 100vh;
+}
+.title {
+  font-family: "PT Serif", serif;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 75px;
+  color: white;
+  padding-bottom: 61px;
+}
+.details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.enquireDetails,
+.placeDetails,
+.agentDetails {
+  font-family: "Josefin Slab", serif;
+  font-size: 13px;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+.Address,
+.Phone,
+.Email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 22px;
+}
+.agentDetailsA {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.img_a {
+  margin-right: 8px;
+}
+.agentA {
+  border: solid 3px white;
+  border-radius: 44px;
+}
+.detail_a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.detail_b {
+  padding-top: 4px;
+  font-size: 13px;
+  color: gray;
+  font-weight: 900;
+}
+.phoneDetail,
+.mailDetail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  padding-top: 8px;
+}
+#localIcon {
+  padding-right: 5px;
+  color: gray;
+}
+#MailIcon {
+  padding-right: 5px;
+  color: gray;
+}
+.agentDetailsB {
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.nameInput,
+.mailInput,
+.textInput {
+  border: solid 0.5px white;
+  background-color: #3f4448;
+  font-size: 18px;
+  color: gray;
+  padding: 20px;
+  width: 300px;
+}
+.submitBtn {
+  color: gray;
+  background-color: #fff;
+  width: 342px;
+  padding: 20px;
+  margin-top: 5px;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.inputName,
+.inputGmail,
+.inputmsg {
+  margin-top: 10px;
+}
+.policy {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: gray;
+  margin-top: 67px;
+}
+.iconsMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.backbtn {
+  text-align: right;
+  margin-right: 10px;
+  color: white;
+}
+.homeBtn {
+  background-color: #cabe9f;
+  width: 55px;
+  height: 55px;
+  font-size: 36px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.Ad_a,
+.Ad_b {
+  font-size: 13px;
+  color: gray;
+}
+.Ad_c {
+  color: white;
+}
+.Address .Ad_c {
+  padding-left: 12px;
+}
+.Phone .Ad_c {
+  padding-left: 23px;
+}
+.Email .Ad_c {
+  padding-left: 30px;
+}
+.instaDiv,
+.lkDiv,
+.fbDiv {
+  padding-left: 3px;
+}
+#footHR {
+  width: 847px;
+  margin-top: 47px;
+}

@@ -1,0 +1,29 @@
+.NavPannel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #3f4448;
+  font-family: "Josefin Slab", serif;
+  font-weight: 900;
+  padding-left: 8px;
+  padding-right: 8px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  top: 0;
+  position: sticky;
+}
+.logoIMG {
+  width: 62px;
+  height: 65px;
+  object-fit: fill;
+}
+.homeNav:hover,
+.aboutNav:hover,
+.apartmentNav:hover,
+.contactNav:hover {
+  color: gray;
+  text-decoration: underline;
+  animation-duration: 2ms;
+  cursor: pointer;
+}

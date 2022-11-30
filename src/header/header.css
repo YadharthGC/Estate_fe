@@ -1,0 +1,153 @@
+/* home.js */
+#HOME {
+  height: 92vh;
+  background-image: url(../images/l2.jpg);
+  object-fit: cover;
+}
+.homeA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* font-family: "Bellota", cursive; */
+  font-family: "Marcellus", serif;
+  height: 85vh;
+  font-size: 50px;
+  color: white;
+}
+.homeB {
+  font-family: "Bellota", cursive;
+  color: lightgray;
+  font-size: 13px;
+}
+
+/* apartment.js */
+#APARTMENTS {
+  height: 100vh;
+  background-color: white;
+  padding-top: 105px;
+}
+.apBtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.secBtns {
+  color: black;
+  font-weight: 900;
+  font-size: 13px;
+  padding: 25px;
+  background-color: lightgray;
+  /* background-color: #cabe9f; */
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.imgAp {
+  width: 500px;
+  height: 628px;
+  object-fit: contain;
+}
+.btnDiv {
+}
+.apImg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imgB {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+tr,
+td {
+  border-collapse: collapse;
+  border-bottom: solid 1px black;
+}
+td {
+  padding: 45px;
+}
+/* table {
+  border: solid 1px black;
+} */
+.keys {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.titleAp {
+  font-family: "Marcellus", serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 71px;
+}
+.imgApB,
+.imgApC {
+  width: 250px;
+  height: 200px;
+}
+.lorem {
+  width: 500px;
+  text-align: initial;
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+}
+.pAp {
+  font-size: 14px;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+.highlight {
+  background-color: #cabe9f;
+  color: white;
+}
+/* about.js */
+.abta,
+.abtc,
+.abtb {
+  display: flex;
+  border: solid 1px lightgray;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1215px;
+  font-size: 14px;
+}
+.abta,
+.abtc {
+  justify-content: flex-start;
+}
+.abtb {
+  justify-content: flex-end;
+}
+.abtimg {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+  padding: 10px;
+}
+#About {
+  height: 100vh;
+  background-color: #f8f8f8;
+  padding-top: 105px;
+}
+.abttext {
+  padding-left: 68px;
+  padding-right: 68px;
+}
+.Aboutparts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
